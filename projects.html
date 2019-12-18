@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Website | Hactiv8 Class Week 1 Day 3</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img id="logo" src="img/logo.png">
+            <ul>
+                <a href="index.html"><li id="home" class="headlist">Home</li></a>
+                <a href="projects.html"><li class="headlist">projects</li></a>
+                <a href="aboutme.html"><li class="headlist">about me</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="form-platform">
+            <h1>WELCOME</h1>
+            <H2>This is our e-menu, please choose your own customized dish!</H2>
+            <p>You have to complete this form to proceed to payment,so enjoy your time! Should you have any inquiries please back to <a href="index.html">home</a> menu and fill the questionnaire within it!</p>
+            <form id="project-form">
+                <br>
+                <span>Pick your main burger recipe! <i>(uncheck if you dont want any vegetables inside)</i></span><br>
+                <label class="mainrecipe">Upper Bread</label>
+                <input type="checkbox" name="veggies" class="checkbox"><br>
+                <label class="mainrecipe">Lower Bread</label>
+                <input type="checkbox" name="veggies" class="checkbox"><br>
+                <label class="mainrecipe">Vegetables</label>
+                <input type="checkbox" name="veggies" class="checkbox"><br>
+                <label class="mainrecipe">Pickles</label>
+                <input type="checkbox" name="veggies" class="checkbox">
+                <br>
+                <br>
+                <span>Choose your own meat!</span>
+                <br>
+                <input type="radio" name="beef-selection">
+                <label>Pork</label>
+                <input type="radio" name="beef-selection">
+                <label>Beef</label>
+                <input type="radio" name="beef-selection">
+                <label>Chicken</label>
+                <br>
+                <br>
+                <label class="select">Pick your Sauce!</label><br>
+                <select class="select" id="sauce-selection">
+                    <option value="tomato">Tomato</option>
+                    <option value="chili">Chili</option>
+                    <option value="tartar">Tartar</option>
+                    <option value="mayonnaise">Mayonnaise</option>
+                </select>
+                <br>
+                <br>
+                <span>Cook Doneness</span><br>
+                <span class="cooking-excellency" id="poor">Poor</span>
+                <span class="cooking-excellency" id="excellent">Excellent</span>
+                <br>
+                <input type="range" min="0" max="5" step="0.5" id="perfectness-slider"><br>
+                <br>
+                <input type="submit" name="submit" id="submit" value="submit">
+            </form>
+        </div>
+    </main>
+</body>
+    <p id="copyright" style="border: 0px;">Copyright &copy; Andru Mahardi | 2019</p>
+</html>
