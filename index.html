@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Website | Hactiv8 Class Week 1 Day 3</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img id="logo" src="img/logo.png">
+            <ul>
+                <a href="index.html"><li id="home" class="headlist">Home</li></a>
+                <a href="projects.html"><li class="headlist">projects</li></a>
+                <a href="aboutme.html"><li class="headlist">about me</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div class="image">
+                <p id="caption">Hello world! Welcome to my website! This is my first website I have ever made in my life please, you can take a look for awhile!<br><br>Besides you may fill your identity along with inquiries below if you have any question.</p>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <form class="form" id="inquiries" action="#" method="get">
+            <label class="label">First name:</label><br>
+            <input type="text" name="first-name" required><br>
+            <label class="label">Last name:</label><br>
+            <input type="text" name="last-name" required><br>
+            <label class="label">Email:</label><br>
+            <input type="email" name="email" required><br>
+            <span class="label">Gender:</span><br>
+            <input type="radio" value="gender" name="gender">
+            <label>Male</label>
+            <input type="radio" value="gender" name="gender">
+            <label>Female</label><br>
+            <label class="label">Nationality:</label><br>
+            <select name="nationality" id="nationality">
+                <option value="united-kingdom">United Kingdom</option>
+                <option value="indonesia">Indonesia</option>
+                <option value="australia">Australia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="japan">Japan</option>
+                <option value="netherland">Netherland</option>
+            </select><br>
+            <label class="label">Inquiries:</label><br>
+            <textarea type="text" name="inquiries" value="inquiries" rows="10" cols="25">Input your inquiries here!</textarea><br>
+            <input type="submit" name="submit" id="submit" value="submit">
+        </form>
+    </footer>
+</body>
+    <p id="copyright">Copyright &copy; Andru Mahardi | 2019</p>
+</html>

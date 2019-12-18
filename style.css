@@ -1,0 +1,191 @@
+/*This is code for index.html file*/
+
+body{
+    background-image: url(img/background.jpg)!important;
+    background-size: cover;
+}
+header{
+    background-color: #0000007d;
+    top: 0px;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    box-shadow: 0px 20px 25px black;
+    z-index: 1;
+}
+nav{
+    margin: 0px;
+}
+ul{
+   float: right;
+}
+ul li{
+    font-family: 'calistoga', cursive;
+    text-transform: uppercase;
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+.headlist{
+    border: 5px solid black;
+    border-radius: 25px;
+    width: 100px;
+    background-color: saddlebrown;
+}
+#logo{
+    width: 70px;
+    padding: 5px 5px 5px 20px;
+}
+#home{
+    margin-left: 125px;
+}
+main{
+    margin-top: 200px;
+}
+main article{
+    text-align: center;
+    margin: 0px 200px;
+    padding: 100px 200px;
+    background-image: url(img/wood1.png);
+    background-size: cover;
+    background-position: bottom;
+    text-shadow: 1px 1px 5px;
+}
+#caption{
+    color: #000000db;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 29px;
+}
+#copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    font-family: 'calistoga', cursive;
+}
+footer{
+   margin: inherit;
+}
+.label{
+    color: lightgoldenrodyellow;
+    margin:inherit;
+    font-family: 'calistoga', cursive;
+}
+#inquiries{
+    background-color: saddlebrown;
+    border: 1px solid saddlebrown;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 1px;
+    padding: 20px;
+    width: 200px;
+    left: 520px;
+    position: relative;
+    color: white;
+    font-family: cursive
+}
+#submit{
+    font-family: 'calistoga', cursive;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+/* Code below is style for projects.html */
+
+#form-platform{
+    text-align: center;
+    font-size: 20px;
+    background-color: #ffa6008f;
+    border: 5px solid white;
+    border-radius: 50px;
+    margin: 0px 200px 200px 200px;
+    font-family: 'calistoga', cursive;
+}
+#project-form{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 20px;
+    background-color: white;
+    margin: 100px 200px;
+    padding: 0px 10px;
+}
+.cooking-excellency{
+    font-family: 'calistoga', cursive;
+}
+#poor{
+    padding: 0px 30px 0px 0px
+}
+#excellent{
+    padding: 0px 0px 0px 30px
+}
+#perfectness-slider{
+    cursor: grab;
+}
+.mainrecipe{
+    font-size: 14px;
+    padding: 0px 20px
+}
+
+/* Code below is style for aboutme.html */
+
+main{
+    font-family: 'calistoga', cursive;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+#h1-aboutme{
+    text-align: right;
+    margin: 0px 35px 0px 0px;
+    color: white;
+}
+table{
+    padding: 10px;
+    font-family: 'calistoga', cursive;
+    float: right;
+}
+table h1{
+    float: right;
+}
+thead{
+    background-color: #c48b4ed4;
+}
+tbody{
+    background-color: white;
+}
+th, td{
+    padding: 30px;
+}
+#amf-logo{
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    background-color: #ffa6004a;
+    box-shadow: 0px 0px 20px 15px;
+}
+.aboutme-list{
+    font-family: cursive;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px dotted white;
+    background-color: hsla(400, 50%, 50%, 0.50);
+}
